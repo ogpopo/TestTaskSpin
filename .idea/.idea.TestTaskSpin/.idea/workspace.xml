@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f42ecc51-4659-4ed9-a8a2-f48ebfbfa1a3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCABD44D-E14E-4E4F-8EFC-4F32C622A396/7c/a300d8b3/Settings.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCABD44D-E14E-4E4F-8EFC-4F32C622A396/b3/920c7ac0/Binder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCABD44D-E14E-4E4F-8EFC-4F32C622A396/56/f9025e63/MonoBehaviourExt.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/53AAC14D-88BA-4477-ACC9-98B039CFD73A/48/263047eb/Behaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCABD44D-E14E-4E4F-8EFC-4F32C622A396/8c/94396419/AsyncEventManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCABD44D-E14E-4E4F-8EFC-4F32C622A396/52/a4608043/FSM.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ExampleFSM/ExMain.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCABD44D-E14E-4E4F-8EFC-4F32C622A396/e5/c82d1003/MonoBehaviourExtBind.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCABD44D-E14E-4E4F-8EFC-4F32C622A396/8e/abcd9542/FSMState.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Roll.cs" />
+        <option value="$PROJECT_DIR$/Assets/ExampleFSM/ExMain.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sources/SpinStates/SpinMachineIdleState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sources/SpinStates/SpinMachineSpinState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sources/SpinMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sources/SpinStates/SpinMachineWaitState.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2dZgQqDcDyrETcFqIpHkK2KSK3X" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f42ecc51-4659-4ed9-a8a2-f48ebfbfa1a3" name="Default Changelist" comment="" />
+      <created>1710221002835</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710221002835</updated>
+      <workItem from="1710221033905" duration="4351000" />
+      <workItem from="1710649623189" duration="2848000" />
+      <workItem from="1710754651250" duration="300000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="171" width="1092" height="786" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1710754954000">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="414" y="171" width="1092" height="786" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1032/1920.365.1920.1032@0.0.1920.1032" timestamp="1710754954000" />
+    <state x="616" y="238" width="672" height="677" key="run.anything.popup" timestamp="1710651706946">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="616" y="238" width="672" height="677" key="run.anything.popup/0.0.1920.1032/1920.365.1920.1032@0.0.1920.1032" timestamp="1710651706946" />
+    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1710651277438">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup/0.0.1920.1032/1920.365.1920.1032@0.0.1920.1032" timestamp="1710651277438" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Tools/UIButtonDataBind.cs</url>
+          <line>134</line>
+          <properties documentPath="E:\Project\TestTaskSpin\Assets\Tools\UIButtonDataBind.cs" initialLine="134">
+            <startOffsets>
+              <option value="2996" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3047" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
