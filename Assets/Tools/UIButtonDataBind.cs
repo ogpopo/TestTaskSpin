@@ -67,9 +67,11 @@ namespace AxGrid.Tools.Binders{
 				entry.callback.AddListener(OnClick);
 				et.triggers.Add(entry);
 			}
+			
+			OnItemEnable();
 		}
 
-		[OnStart]
+		[OnStart(RunLevel.High)]
 		public void start()
 		{
 			Model.EventManager.AddAction($"On{enableField}Changed", OnItemEnable);
@@ -80,8 +82,6 @@ namespace AxGrid.Tools.Binders{
 				key = Model.GetString(keyField, key);
 				Model.EventManager.AddAction($"On{keyField}Changed", OnKeyChanged);
 			}
-			OnItemEnable();
-			
 		}
 
 		public void OnKeyChanged()

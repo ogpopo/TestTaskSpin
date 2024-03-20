@@ -5,6 +5,8 @@ namespace Assets.Sources.SpinStates
     [State("SpinMachineWait")]
     public class SpinMachineWaitState : FSMState
     {
+        private SpinMachine _spinMachine;
+        
         [Enter]
         private void EnterThis()
         {
@@ -15,11 +17,17 @@ namespace Assets.Sources.SpinStates
         {
             Parent.Change("SpinMachineSpin");
         }
-        //
-        // [Exit]
-        // private void Exit()
-        // {
-        //     Model.EventManager.RemoveAction("OnB_StartSpinClick", StartSpin);
-        // }
+        
+        public void Init(SpinMachine spinMachine)
+        {
+            _spinMachine = spinMachine;
+        }
+        
+        [Exit]
+        private void Exit()
+        {
+            //Model.EventManager.RemoveAction("OnB_StartSpinClick", StartSpin);
+            _spinMachine.SetActiveSpinElements(false);
+        }
     }
 }

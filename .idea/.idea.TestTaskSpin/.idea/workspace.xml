@@ -11,25 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f42ecc51-4659-4ed9-a8a2-f48ebfbfa1a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/SpinMachine/Accelerator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/SpinMachine/Accelerator.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/SpinMachine/Slot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/SpinMachine/Slot.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/SpinStates/SpinMachineStopState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/SpinStates/SpinMachineStopState.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Wallet/Wallet.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Wallet/Wallet.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestTaskSpin/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestTaskSpin/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestTaskSpin/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestTaskSpin/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TestTaskSpin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestTaskSpin/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/SpinMachine.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/SpinMachine.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sources/SpinMachine/SpinMachine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sources/SpinMachine/SpinMachine.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sources/SpinStates/SpinMachineSpinState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sources/SpinStates/SpinMachineSpinState.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sources/SpinStates/SpinMachineWaitState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sources/SpinStates/SpinMachineWaitState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tools/UIButtonDataBind.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/UIButtonDataBind.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +43,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCABD44D-E14E-4E4F-8EFC-4F32C622A396/7c/a300d8b3/Settings.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C282EFA9-AD0C-423D-920C-93C6022B29D7/fa/dd5b8d3b/ILog.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCABD44D-E14E-4E4F-8EFC-4F32C622A396/b3/920c7ac0/Binder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCABD44D-E14E-4E4F-8EFC-4F32C622A396/8d/4577009c/OnStart.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7E05DB41-A20B-4510-8859-FA03B97088D4/74/e0b401a9/IComparable`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCABD44D-E14E-4E4F-8EFC-4F32C622A396/52/a4608043/FSM.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ExampleFSM/ExMain.cs" root0="FORCE_HIGHLIGHTING" />
@@ -62,6 +51,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCABD44D-E14E-4E4F-8EFC-4F32C622A396/81/aa5e984a/IState.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCABD44D-E14E-4E4F-8EFC-4F32C622A396/19/3b1304a0/Loop.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCABD44D-E14E-4E4F-8EFC-4F32C622A396/a5/894d54b3/MonoBehaviourExtAttribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCABD44D-E14E-4E4F-8EFC-4F32C622A396/44/21e4c40f/OnRefresh.cs" root0="SKIP_HIGHLIGHTING" />
@@ -78,15 +68,16 @@
         <option value="$PROJECT_DIR$/Assets/Sources/SpinStates/SpinMachineIdleState.cs" />
         <option value="$PROJECT_DIR$/Assets/Sources/SpinMachine.cs" />
         <option value="$PROJECT_DIR$/Assets/Sources/SpinStates/SpinMachineStopState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sources/SpinStates/SpinMachineWaitState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sources/SpinStates/SpinMachineSpinState.cs" />
         <option value="$PROJECT_DIR$/Assets/Sources/Enums.cs" />
         <option value="$PROJECT_DIR$/Assets/Sources/Enums/Enums.cs" />
         <option value="$PROJECT_DIR$/Assets/Sources/SpinMachine/Accelerator.cs" />
         <option value="$PROJECT_DIR$/Assets/Sources/SpinMachine/Slot.cs" />
         <option value="$PROJECT_DIR$/Assets/Sources/SlotRewardConfig.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sources/SpinMachine/SpinMachine.cs" />
         <option value="$PROJECT_DIR$/Assets/Sources/Wallet/Wallet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sources/SpinStates/SpinMachineSpinState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sources/SpinStates/SpinMachineWaitState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sources/SpinMachine/SpinMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tools/UIButtonDataBind.cs" />
       </list>
     </option>
   </component>
@@ -149,7 +140,7 @@
       <workItem from="1710756601269" duration="498000" />
       <workItem from="1710757129605" duration="9569000" />
       <workItem from="1710825156722" duration="17785000" />
-      <workItem from="1710904698967" duration="20679000" />
+      <workItem from="1710904698967" duration="24675000" />
     </task>
     <servers />
   </component>

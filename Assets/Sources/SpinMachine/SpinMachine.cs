@@ -7,17 +7,23 @@ using AxGrid.Path;
 using DG.Tweening;
 using Sources.SpinMachine;
 using Sources.Wallet;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class SpinMachine : MonoBehaviourExtBind
 {
+    [SerializeField] private Button _spinButton;
+    [SerializeField] private Button _stopButton;
+    [SerializeField] private TextMeshProUGUI _spinText;
+    [SerializeField] private TextMeshProUGUI _stopText;
+
     [SerializeField] private ScrollRect _scrollTransform;
     [SerializeField] private List<Slot> _slotTemplates;
     [SerializeField] private List<Slot> _slots = new ();
 
     [SerializeField] private Wallet _wallet;
-    
+
     [SerializeField] private SlotRewardConfig _config;
 
     [SerializeField] private RectTransform _indicator;
@@ -26,8 +32,6 @@ public class SpinMachine : MonoBehaviourExtBind
     private float _slotYSize;
 
     private Accelerator _accelerator;
-
-    public int i = 1;
 
     [OnAwake]
     private void AwakeThis()
@@ -38,10 +42,13 @@ public class SpinMachine : MonoBehaviourExtBind
         _accelerator = new (_scrollTransform.content);
 
         Settings.Fsm = new ();
-        Settings.Fsm.Add(new SpinMachineWaitState());
+
+        var waitState = new SpinMachineWaitState();
+        waitState.Init(this);
+        Settings.Fsm.Add(waitState);
 
         var spinState = new SpinMachineSpinState();
-        spinState.Init(_accelerator);
+        spinState.Init(_accelerator, this);
         Settings.Fsm.Add(spinState);
 
         var stopState = new SpinMachineStopState();
@@ -57,6 +64,13 @@ public class SpinMachine : MonoBehaviourExtBind
         Settings.Fsm.Start("SpinMachineWait");
     }
 
+    [OnStart(RunLevel.Low)]
+    private void HighPriorityStart()
+    {
+        SetActiveSpinElements(true);
+        SetActiveStopElements(false);
+    }
+
     [OnUpdate]
     private void UpdateThis()
     {
@@ -70,6 +84,18 @@ public class SpinMachine : MonoBehaviourExtBind
         Settings.Fsm.Update(Time.deltaTime);
     }
 
+    public void SetActiveSpinElements(bool value)
+    {
+        _spinText.color = value == true ? Color.white : Color.grey;
+        _spinButton.interactable = value;
+    }
+
+    public void SetActiveStopElements(bool value)
+    {
+        _stopText.color = value == true ? Color.white : Color.grey;
+        _stopButton.interactable = value;
+    }
+
     private void FixedUpdate()
     {
         _accelerator.Update();
@@ -79,9 +105,6 @@ public class SpinMachine : MonoBehaviourExtBind
     {
         var newSlot = Instantiate(_slotTemplates[Random.Range(0, _slotTemplates.Count)], _scrollTransform.content);
         _slots.Add(newSlot);
-
-        newSlot.gameObject.name += " " + i;
-        i++;
     }
 
     private void OnDropped()
@@ -98,7 +121,7 @@ public class SpinMachine : MonoBehaviourExtBind
                 minimumDistance = distance;
                 continue;
             }
-            
+
             if (distance < minimumDistance)
             {
                 nearestSlot = _slots[i];
@@ -120,6 +143,8 @@ public class SpinMachine : MonoBehaviourExtBind
 
                 PlayerPrefs.SetInt("WalletValue", PlayerPrefs.GetInt("WalletValue") + reward);
                 _wallet.OnWalletValueChanged(PlayerPrefs.GetInt("WalletValue"));
+
+                SetActiveSpinElements(true);
             }));
     }
 }
