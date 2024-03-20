@@ -1,5 +1,4 @@
-﻿using System.Diagnostics;
-using AxGrid.FSM;
+﻿using AxGrid.FSM;
 
 namespace Assets.Sources.SpinStates
 {
@@ -10,16 +9,17 @@ namespace Assets.Sources.SpinStates
         private void EnterThis()
         {
             Model.EventManager.AddAction("OnB_StartSpinClick", StartSpin);
-            Model.EventManager.AddAction("OnB_StopSpinClick", StopSpin);
         }
 
         private void StartSpin()
-        {_log.Debug("111");
+        {
             Parent.Change("SpinMachineSpin");
         }
-
-        private void StopSpin()
-        {
-        }
+        //
+        // [Exit]
+        // private void Exit()
+        // {
+        //     Model.EventManager.RemoveAction("OnB_StartSpinClick", StartSpin);
+        // }
     }
 }

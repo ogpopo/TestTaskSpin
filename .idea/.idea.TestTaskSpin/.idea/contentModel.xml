@@ -4,9 +4,21 @@
     <e p="C:\Users\Иван\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
     <e p="C:\Users\Иван\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_TestTaskSpin.127071404.00" t="ExcludeRecursive" />
     <e p="E:\Project\TestTaskSpin" t="IncludeRecursive">
-      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="DOTween" t="Include">
+          <e p="Modules" t="Include">
+            <e p="DOTweenModuleAudio.cs" t="Include" />
+            <e p="DOTweenModuleEPOOutline.cs" t="Include" />
+            <e p="DOTweenModulePhysics.cs" t="Include" />
+            <e p="DOTweenModulePhysics2D.cs" t="Include" />
+            <e p="DOTweenModuleSprite.cs" t="Include" />
+            <e p="DOTweenModuleUI.cs" t="Include" />
+            <e p="DOTweenModuleUnityVersion.cs" t="Include" />
+            <e p="DOTweenModuleUtils.cs" t="Include" />
+          </e>
+          <e p="readme.txt" t="Include" />
+        </e>
         <e p="ExampleFSM" t="Include">
           <e p="ExInitState.cs" t="Include" />
           <e p="ExMain.cs" t="Include" />
@@ -15,72 +27,32 @@
           <e p="ExStateTwoState.cs" t="Include" />
         </e>
         <e p="log4net.xml" t="Include" />
-        <e p="Mysterious night slot game kit" t="Include">
-          <e p="animations" t="Include">
-            <e p="A" t="Include" />
-            <e p="bats" t="Include" />
-            <e p="blured_icons" t="Include">
-              <e p="1" t="Include" />
-              <e p="2" t="Include" />
-              <e p="3" t="Include" />
-              <e p="4" t="Include" />
-              <e p="5" t="Include" />
-              <e p="6" t="Include" />
-              <e p="7" t="Include" />
-              <e p="8" t="Include" />
-            </e>
-            <e p="chest_opening" t="Include" />
-            <e p="flies" t="Include" />
-            <e p="flies_appearing" t="Include" />
-            <e p="J" t="Include" />
-            <e p="K" t="Include" />
-            <e p="king" t="Include" />
-            <e p="Q" t="Include" />
-            <e p="queen" t="Include" />
-            <e p="wolf_icon" t="Include" />
-          </e>
-          <e p="png" t="Include">
-            <e p="bonus_game" t="Include" />
-            <e p="cards" t="Include" />
-            <e p="icons" t="Include" />
-            <e p="level_up_images" t="Include" />
-            <e p="main_game" t="Include">
-              <e p="lines_sep" t="Include" />
-            </e>
-            <e p="splash_screen" t="Include" />
-            <e p="win_table" t="Include" />
-          </e>
-          <e p="psd" t="Include" />
-        </e>
-        <e p="Plugins" t="Include" />
-        <e p="Prefabs" t="Include" />
-        <e p="Scenes" t="Include" />
-        <e p="Settings" t="Include">
-          <e p="Scenes" t="Include" />
-        </e>
         <e p="Sources" t="Include">
-          <e p="SpinMachine.cs" t="Include" />
+          <e p="Enums" t="Include">
+            <e p="Enums.cs" t="Include" />
+          </e>
+          <e p="SlotRewardConfig.cs" t="Include" />
+          <e p="SpinMachine" t="Include">
+            <e p="Accelerator.cs" t="Include" />
+            <e p="Slot.cs" t="Include" />
+            <e p="SpinMachine.cs" t="Include" />
+          </e>
           <e p="SpinStates" t="Include">
             <e p="SpinMachineSpinState.cs" t="Include" />
+            <e p="SpinMachineStopState.cs" t="Include" />
             <e p="SpinMachineWaitState.cs" t="Include" />
+          </e>
+          <e p="Wallet" t="Include">
+            <e p="Wallet.cs" t="Include" />
           </e>
         </e>
         <e p="TextMesh Pro" t="Include">
-          <e p="Documentation" t="Include" />
           <e p="Examples &amp; Extras" t="Include">
             <e p="Fonts" t="Include">
               <e p="Anton OFL.txt" t="Include" />
               <e p="Bangers - OFL.txt" t="Include" />
               <e p="Oswald-Bold - OFL.txt" t="Include" />
             </e>
-            <e p="Materials" t="Include" />
-            <e p="Prefabs" t="Include" />
-            <e p="Resources" t="Include">
-              <e p="Color Gradient Presets" t="Include" />
-              <e p="Fonts &amp; Materials" t="Include" />
-              <e p="Sprite Assets" t="Include" />
-            </e>
-            <e p="Scenes" t="Include" />
             <e p="Scripts" t="Include">
               <e p="Benchmark01.cs" t="Include" />
               <e p="Benchmark01_UGUI.cs" t="Include" />
@@ -117,18 +89,13 @@
               <e p="VertexZoom.cs" t="Include" />
               <e p="WarpTextExample.cs" t="Include" />
             </e>
-            <e p="Sprites" t="Include" />
-            <e p="Textures" t="Include" />
           </e>
           <e p="Fonts" t="Include">
             <e p="LiberationSans - OFL.txt" t="Include" />
           </e>
           <e p="Resources" t="Include">
-            <e p="Fonts &amp; Materials" t="Include" />
             <e p="LineBreaking Following Characters.txt" t="Include" />
             <e p="LineBreaking Leading Characters.txt" t="Include" />
-            <e p="Sprite Assets" t="Include" />
-            <e p="Style Sheets" t="Include" />
           </e>
           <e p="Shaders" t="Include">
             <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />

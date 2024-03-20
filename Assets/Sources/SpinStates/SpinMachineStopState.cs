@@ -3,8 +3,8 @@ using Sources.SpinMachine;
 
 namespace Assets.Sources.SpinStates
 {
-    [State("SpinMachineSpin")]
-    public class SpinMachineSpinState : FSMState
+    [State("SpinMachineStop")]
+    public class SpinMachineStopState : FSMState
     {
         private Accelerator _accelerator;
 
@@ -12,30 +12,24 @@ namespace Assets.Sources.SpinStates
         {
             _accelerator = accelerator;
         }
-
+        
         [Enter]
         private void EnterThis()
         {
-            Model.EventManager.AddAction("OnB_StopSpinClick", StopSpin);
-
             _accelerator.ResetData();
+
+            _accelerator.Stopped += OnSpinStop;
         }
 
         [Loop(0)]
         private void UpdateState(float deltaTime)
         {
-            _accelerator.Accelerate(deltaTime);
+            _accelerator.StopAccelerate(deltaTime);
         }
 
-        private void StopSpin()
+        private void OnSpinStop()
         {
-            Parent.Change("SpinMachineStop");
+            Parent.Change("SpinMachineWait");
         }
-
-        // [Exit]
-        // private void ExitThis()
-        // {
-        //     Model.EventManager.RemoveAction("OnB_StopSpinClick", StopSpin); 
-        // }
     }
 }

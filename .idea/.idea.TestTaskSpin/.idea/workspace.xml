@@ -1,22 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f42ecc51-4659-4ed9-a8a2-f48ebfbfa1a3" name="Default Changelist" comment="" />
+    <list default="true" id="f42ecc51-4659-4ed9-a8a2-f48ebfbfa1a3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/SpinMachine/Accelerator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/SpinMachine/Accelerator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/SpinMachine/Slot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/SpinMachine/Slot.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/SpinStates/SpinMachineStopState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/SpinStates/SpinMachineStopState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Wallet/Wallet.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Wallet/Wallet.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestTaskSpin/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestTaskSpin/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestTaskSpin/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestTaskSpin/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestTaskSpin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestTaskSpin/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sources/SpinMachine.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sources/SpinMachine.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sources/SpinStates/SpinMachineSpinState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sources/SpinStates/SpinMachineSpinState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sources/SpinStates/SpinMachineWaitState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sources/SpinStates/SpinMachineWaitState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCABD44D-E14E-4E4F-8EFC-4F32C622A396/7c/a300d8b3/Settings.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCABD44D-E14E-4E4F-8EFC-4F32C622A396/b3/920c7ac0/Binder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCABD44D-E14E-4E4F-8EFC-4F32C622A396/bc/b57e7746/OnTextUpdate.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sources/SlotRewardConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/53AAC14D-88BA-4477-ACC9-98B039CFD73A/71/527f7b8e/Debug.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCABD44D-E14E-4E4F-8EFC-4F32C622A396/56/f9025e63/MonoBehaviourExt.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sources/Enums/Enums.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7E05DB41-A20B-4510-8859-FA03B97088D4/14/9e919e02/AttributeTargets.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7E05DB41-A20B-4510-8859-FA03B97088D4/b7/c164863a/List`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/53AAC14D-88BA-4477-ACC9-98B039CFD73A/48/263047eb/Behaviour.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCABD44D-E14E-4E4F-8EFC-4F32C622A396/8c/94396419/AsyncEventManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCABD44D-E14E-4E4F-8EFC-4F32C622A396/52/a4608043/FSM.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ExampleFSM/ExMain.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCABD44D-E14E-4E4F-8EFC-4F32C622A396/76/8bd32743/Timing.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7E05DB41-A20B-4510-8859-FA03B97088D4/42/75ea9d0b/MethodBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCABD44D-E14E-4E4F-8EFC-4F32C622A396/e5/c82d1003/MonoBehaviourExtBind.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCABD44D-E14E-4E4F-8EFC-4F32C622A396/8e/abcd9542/FSMState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCABD44D-E14E-4E4F-8EFC-4F32C622A396/7c/a300d8b3/Settings.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C282EFA9-AD0C-423D-920C-93C6022B29D7/fa/dd5b8d3b/ILog.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCABD44D-E14E-4E4F-8EFC-4F32C622A396/b3/920c7ac0/Binder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7E05DB41-A20B-4510-8859-FA03B97088D4/74/e0b401a9/IComparable`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCABD44D-E14E-4E4F-8EFC-4F32C622A396/52/a4608043/FSM.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ExampleFSM/ExMain.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/105DA115-9EC9-496A-B931-0694C7B11DD2/24/3ce0f0d2/Math.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCABD44D-E14E-4E4F-8EFC-4F32C622A396/81/aa5e984a/IState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCABD44D-E14E-4E4F-8EFC-4F32C622A396/19/3b1304a0/Loop.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCABD44D-E14E-4E4F-8EFC-4F32C622A396/44/21e4c40f/OnRefresh.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCABD44D-E14E-4E4F-8EFC-4F32C622A396/8c/94396419/AsyncEventManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7E05DB41-A20B-4510-8859-FA03B97088D4/13/7bc91882/MethodInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCABD44D-E14E-4E4F-8EFC-4F32C622A396/42/aacda29e/OnUpdate.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCABD44D-E14E-4E4F-8EFC-4F32C622A396/85/074c15ed/OnEnable.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -24,9 +76,17 @@
         <option value="$PROJECT_DIR$/Assets/Roll.cs" />
         <option value="$PROJECT_DIR$/Assets/ExampleFSM/ExMain.cs" />
         <option value="$PROJECT_DIR$/Assets/Sources/SpinStates/SpinMachineIdleState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sources/SpinStates/SpinMachineSpinState.cs" />
         <option value="$PROJECT_DIR$/Assets/Sources/SpinMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sources/SpinStates/SpinMachineStopState.cs" />
         <option value="$PROJECT_DIR$/Assets/Sources/SpinStates/SpinMachineWaitState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sources/SpinStates/SpinMachineSpinState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sources/Enums.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sources/Enums/Enums.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sources/SpinMachine/Accelerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sources/SpinMachine/Slot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sources/SlotRewardConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sources/SpinMachine/SpinMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sources/Wallet/Wallet.cs" />
       </list>
     </option>
   </component>
@@ -36,6 +96,9 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30010834" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -45,7 +108,28 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="3260">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" value="3260" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -57,45 +141,160 @@
       <updated>1710221002835</updated>
       <workItem from="1710221033905" duration="4351000" />
       <workItem from="1710649623189" duration="2848000" />
-      <workItem from="1710754651250" duration="300000" />
+      <workItem from="1710754651250" duration="1013000" />
+      <workItem from="1710755709481" duration="53000" />
+      <workItem from="1710755778358" duration="311000" />
+      <workItem from="1710756106152" duration="86000" />
+      <workItem from="1710756259714" duration="282000" />
+      <workItem from="1710756601269" duration="498000" />
+      <workItem from="1710757129605" duration="9569000" />
+      <workItem from="1710825156722" duration="17785000" />
+      <workItem from="1710904698967" duration="20679000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="171" width="1092" height="786" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1710754954000">
+    <state x="414" y="171" width="1092" height="786" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1710756642537">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="414" y="171" width="1092" height="786" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1032/1920.365.1920.1032@0.0.1920.1032" timestamp="1710754954000" />
-    <state x="616" y="238" width="672" height="677" key="run.anything.popup" timestamp="1710651706946">
+    <state x="414" y="171" width="1092" height="786" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1032/1920.365.1920.1032@0.0.1920.1032" timestamp="1710756642537" />
+    <state width="541" height="464" key="DebuggerActiveHint" timestamp="1710919388595">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="616" y="238" width="672" height="677" key="run.anything.popup/0.0.1920.1032/1920.365.1920.1032@0.0.1920.1032" timestamp="1710651706946" />
-    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1710651277438">
+    <state width="541" height="464" key="DebuggerActiveHint/0.0.1920.1032/1920.365.1920.1032@0.0.1920.1032" timestamp="1710919388595" />
+    <state width="1877" height="277" key="GridCell.Tab.0.bottom" timestamp="1710923181153">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup/0.0.1920.1032/1920.365.1920.1032@0.0.1920.1032" timestamp="1710651277438" />
+    <state width="1877" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1032/1920.365.1920.1032@0.0.1920.1032" timestamp="1710923181153" />
+    <state width="1877" height="277" key="GridCell.Tab.0.center" timestamp="1710923181153">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="277" key="GridCell.Tab.0.center/0.0.1920.1032/1920.365.1920.1032@0.0.1920.1032" timestamp="1710923181153" />
+    <state width="1877" height="277" key="GridCell.Tab.0.left" timestamp="1710923181153">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="277" key="GridCell.Tab.0.left/0.0.1920.1032/1920.365.1920.1032@0.0.1920.1032" timestamp="1710923181153" />
+    <state width="1877" height="277" key="GridCell.Tab.0.right" timestamp="1710923181153">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="277" key="GridCell.Tab.0.right/0.0.1920.1032/1920.365.1920.1032@0.0.1920.1032" timestamp="1710923181153" />
+    <state width="1877" height="277" key="GridCell.Tab.1.bottom" timestamp="1710923181153">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="277" key="GridCell.Tab.1.bottom/0.0.1920.1032/1920.365.1920.1032@0.0.1920.1032" timestamp="1710923181153" />
+    <state width="1877" height="277" key="GridCell.Tab.1.center" timestamp="1710923181153">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="277" key="GridCell.Tab.1.center/0.0.1920.1032/1920.365.1920.1032@0.0.1920.1032" timestamp="1710923181153" />
+    <state width="1877" height="277" key="GridCell.Tab.1.left" timestamp="1710923181153">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="277" key="GridCell.Tab.1.left/0.0.1920.1032/1920.365.1920.1032@0.0.1920.1032" timestamp="1710923181153" />
+    <state width="1877" height="277" key="GridCell.Tab.1.right" timestamp="1710923181153">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="277" key="GridCell.Tab.1.right/0.0.1920.1032/1920.365.1920.1032@0.0.1920.1032" timestamp="1710923181153" />
+    <state width="1877" height="277" key="GridCell.Tab.2.bottom" timestamp="1710923181153">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="277" key="GridCell.Tab.2.bottom/0.0.1920.1032/1920.365.1920.1032@0.0.1920.1032" timestamp="1710923181153" />
+    <state width="1877" height="277" key="GridCell.Tab.2.center" timestamp="1710923181153">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="277" key="GridCell.Tab.2.center/0.0.1920.1032/1920.365.1920.1032@0.0.1920.1032" timestamp="1710923181153" />
+    <state width="1877" height="277" key="GridCell.Tab.2.left" timestamp="1710923181153">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="277" key="GridCell.Tab.2.left/0.0.1920.1032/1920.365.1920.1032@0.0.1920.1032" timestamp="1710923181153" />
+    <state width="1877" height="277" key="GridCell.Tab.2.right" timestamp="1710923181153">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="277" key="GridCell.Tab.2.right/0.0.1920.1032/1920.365.1920.1032@0.0.1920.1032" timestamp="1710923181153" />
+    <state width="1877" height="277" key="GridCell.Tab.3.bottom" timestamp="1710923181153">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="277" key="GridCell.Tab.3.bottom/0.0.1920.1032/1920.365.1920.1032@0.0.1920.1032" timestamp="1710923181153" />
+    <state width="1877" height="277" key="GridCell.Tab.3.center" timestamp="1710923181153">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="277" key="GridCell.Tab.3.center/0.0.1920.1032/1920.365.1920.1032@0.0.1920.1032" timestamp="1710923181153" />
+    <state width="1877" height="277" key="GridCell.Tab.3.left" timestamp="1710923181153">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="277" key="GridCell.Tab.3.left/0.0.1920.1032/1920.365.1920.1032@0.0.1920.1032" timestamp="1710923181153" />
+    <state width="1877" height="277" key="GridCell.Tab.3.right" timestamp="1710923181153">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="277" key="GridCell.Tab.3.right/0.0.1920.1032/1920.365.1920.1032@0.0.1920.1032" timestamp="1710923181153" />
+    <state x="461" y="161" key="SettingsEditor" timestamp="1710757103070">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="461" y="161" key="SettingsEditor/0.0.1920.1032/1920.365.1920.1032@0.0.1920.1032" timestamp="1710757103070" />
+    <state width="968" height="524" key="XDebugger.FullValuePopup" timestamp="1710757439115">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="968" height="524" key="XDebugger.FullValuePopup/0.0.1920.1032/1920.365.1920.1032@0.0.1920.1032" timestamp="1710757439115" />
+    <state x="1939" y="351" width="1513" height="1019" maximized="true" key="dock-window-1" timestamp="1710844378627">
+      <screen x="1920" y="365" width="1920" height="1032" />
+    </state>
+    <state x="1939" y="351" width="1513" height="1019" maximized="true" key="dock-window-1/0.0.1920.1032/1920.365.1920.1032@0.0.1920.1032" timestamp="1710844378627" />
+    <state x="616" y="238" width="672" height="677" key="run.anything.popup" timestamp="1710826507589">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="616" y="238" width="672" height="677" key="run.anything.popup/0.0.1920.1032/1920.365.1920.1032@0.0.1920.1032" timestamp="1710826507589" />
+    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1710918135990">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup/0.0.1920.1032/1920.365.1920.1032@0.0.1920.1032" timestamp="1710918135990" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Tools/UIButtonDataBind.cs</url>
-          <line>134</line>
-          <properties documentPath="E:\Project\TestTaskSpin\Assets\Tools\UIButtonDataBind.cs" initialLine="134">
+          <url>file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCABD44D-E14E-4E4F-8EFC-4F32C622A396/8e/abcd9542/FSMState.cs</url>
+          <line>191</line>
+          <properties documentPath="C:\Users\Иван\AppData\Roaming\JetBrains\Rider2020.2\resharper-host\DecompilerCache\decompiler\CCABD44D-E14E-4E4F-8EFC-4F32C622A396\8e\abcd9542\FSMState.cs" initialLine="191">
             <startOffsets>
-              <option value="2996" />
+              <option value="7254" />
             </startOffsets>
             <endOffsets>
-              <option value="3047" />
+              <option value="7255" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCABD44D-E14E-4E4F-8EFC-4F32C622A396/8e/abcd9542/FSMState.cs</url>
+          <line>183</line>
+          <properties documentPath="C:\Users\Иван\AppData\Roaming\JetBrains\Rider2020.2\resharper-host\DecompilerCache\decompiler\CCABD44D-E14E-4E4F-8EFC-4F32C622A396\8e\abcd9542\FSMState.cs" initialLine="183">
+            <startOffsets>
+              <option value="7083" />
+            </startOffsets>
+            <endOffsets>
+              <option value="7084" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

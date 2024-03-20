@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d92fea4714c9864997969dfa9db2693, type: 3}
+  m_Name: SlotConfig
+  m_EditorClassIdentifier: 
+  <RewardPerSlots>k__BackingField:
+  - SlotType: 0
+    RewardValue: 10
+  - SlotType: 1
+    RewardValue: 13
+  - SlotType: 2
+    RewardValue: 15
+  - SlotType: 3
+    RewardValue: 18
+  - SlotType: 6
+    RewardValue: 20
