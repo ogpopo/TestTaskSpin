@@ -17,12 +17,6 @@ namespace Sources.Wallet
         [OnAwake]
         private void AwakeThis()
         {
-            // Settings.Model.EventManager.AddAction("WalletValue", OnWalletValueChanged);
-            // if (Settings.Model.TryGetValue("WalletValue", out var value) == false)
-            // {
-            //     Settings.Model.Set("WalletValue", 0);
-            // }
-
             OnWalletValueChanged(PlayerPrefs.GetInt("WalletValue"));
         }
         
