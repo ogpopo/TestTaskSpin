@@ -48,7 +48,6 @@ namespace Assets.Sources.SpinStates
         [Exit]
         private void ExitThis()
         {
-            //Model.EventManager.RemoveAction("OnB_StopSpinClick", StopSpin);
             _spinMachine.SetActiveStopElements(false);
         }
     }
